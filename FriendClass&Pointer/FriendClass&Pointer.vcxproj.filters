@@ -18,5 +18,8 @@
     <ClCompile Include="PraktikFriendCls&amp;Ptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pointerSatu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
