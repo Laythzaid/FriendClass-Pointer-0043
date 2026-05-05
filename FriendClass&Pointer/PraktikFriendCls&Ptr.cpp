@@ -78,6 +78,6 @@ public:
 		rectangleObj.EnterDimns();
 
 		kiteObj.printDimns();
-
+		rectangleObj.printDimns();
 	}
 
