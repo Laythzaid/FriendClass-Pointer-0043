@@ -3,7 +3,7 @@ using namespace std;
 
 class rectangle; // forward declaration
 
-class KiteShape {
+class TableShape {
 private: 
 	float dgl1, dgl2;
 	float SideA, SideB;
@@ -26,16 +26,16 @@ public:
 	}
 
 	float calcPerimeter() const {
-		return (2 * (sideA + sideB));
+		return (2 * (SideA + SideB));
 	}
 
 	void printDimns() const {
-		cout << "Kite Shape\n";
+		cout << "Table Shape Shape\n";
 		cout << "Area : " << calcArea() << endl;
 		cout << "Perimeter : " << calcPerimeter() << endl;
 	}
 
-	friend float totalPerimeter(rectangle t, KiteShape);
+	friend float totalPerimeter(rectangle c, TableShape);
 
 };
 
@@ -65,23 +65,23 @@ public:
 		cout << "Area : " << calcArea() << endl;
 		cout << "Perimeter : " << calcPerimeter() << endl;
 	}
-	friend float totalPerimeter(rectangle t, KiteShape k);
+	friend float totalPerimeter(rectangle c, TableShape t);
 };
-    float totalPerimeter(rectangle t, KiteShape k) {
-	    return (4 * t.side) + (2 * (k.sideA + k.sideB));
+    float totalPerimeter(rectangle c, TableShape t) {
+	    return (4 * c.side) + (2 * (t.SideA + t.SideB));
 	 }
 	int main() {
-		KiteShape kiteObj;
+		TableShape tblObj;
 		rectangle rectangleObj;
 
-		kiteObj.EnterDimns();
+		tblObj.EnterDimns();
 		rectangleObj.EnterDimns();
 
-		kiteObj.printDimns();
+		tblObj.printDimns();
 		rectangleObj.printDimns();
 
 		cout << "\n Total Perimeter (Friend Function):"
-			<< totalPerimeter(rectangleObj, kiteObj) << endl;
+			<< totalPerimeter(rectangleObj, tblObj) << endl;
 
 		return 0;
 	}
