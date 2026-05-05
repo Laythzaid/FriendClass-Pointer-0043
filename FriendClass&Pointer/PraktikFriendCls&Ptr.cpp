@@ -79,5 +79,9 @@ public:
 
 		kiteObj.printDimns();
 		rectangleObj.printDimns();
+
+		cout << "\n Total Perimeter (Friend Function):"
+			<< totalPerimeter(rectangleObj, kiteObj) << endl;
+
 	}
 
