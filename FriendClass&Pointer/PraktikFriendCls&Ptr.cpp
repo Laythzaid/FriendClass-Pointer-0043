@@ -44,7 +44,7 @@ private:
 	float dgl1, dgl2;
 	float side;
 
-public :
+public:
 	void EnterDimns() {
 		cout << "Enter Rectangle dimensions\n";
 		cout << "Diagonal 1: ";
@@ -66,4 +66,9 @@ public :
 		cout << "Perimeter : " << calcPerimeter() << endl;
 	}
 	friend float totalPerimeter(rectangle t, KiteShape k);
-}
+};
+    float totalPerimeter(rectangle t, KiteShape k) {
+	    return (4 * t.side) + (2 * (k.sideA + k.sideB));
+	 }
+
+
