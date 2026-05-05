@@ -83,5 +83,7 @@ public:
 		cout << "\n Total Perimeter (Friend Function):"
 			<< totalPerimeter(rectangleObj, kiteObj) << endl;
 
+		return 0;
 	}
+
 
