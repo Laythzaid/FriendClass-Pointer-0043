@@ -41,21 +41,21 @@ public:
 
 class rectangle {
 private:
-	float dgl1, dgl2;
+	float SideC, SideD ;
 	float side;
 
 public:
 	void EnterDimns() {
 		cout << "Enter Rectangle dimensions\n";
-		cout << "Diagonal 1: ";
-		cin >> dgl1;
-		cout << "Diagonal 2: ";
-		cin >> dgl2;
+		cout << "Side C: ";
+		cin >> SideC;
+		cout << "Side D: ";
+		cin >> SideD;
 		cout << "Side: ";
 		cin >> side;
 	}
 	float calcArea() const {
-		return (dgl1 * dgl2) / 2;
+		return (SideC * SideD) / 2;
 	}
 	float calcPerimeter() const {
 		return (4 * side);
