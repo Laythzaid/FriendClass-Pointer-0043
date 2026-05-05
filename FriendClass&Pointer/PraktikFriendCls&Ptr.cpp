@@ -30,10 +30,8 @@ public:
 	}
 
 	void printDimns() const {
-		cout << "Kite dimensions\n";
-		cout << "Diagonal 1: " << dgl1 << endl;
-		cout << "Diagonal 2: " << dgl2 << endl;
-		cout << "Side A: " << sideA << endl;
-		cout << "Side B: " << sideB << endl;
+		cout << "Kite Shape\n";
+		cout << "Area : " << calcArea() << endl;
+		cout << "Perimeter : " << calcPerimeter() << endl;
 	}
 };
