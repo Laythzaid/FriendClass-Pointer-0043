@@ -6,7 +6,7 @@ class rectangle; // forward declaration
 class KiteShape {
 private: 
 	float dgl1, dgl2;
-	float sideA, sideB;
+	float SideA, SideB;
 
 public: 
 	void EnterDimns() {
@@ -16,9 +16,9 @@ public:
 		cout << "Diagonal 2: ";
 		cin >> dgl2;
 		cout << "Side A: ";
-		cin >> sideA;
+		cin >> SideA;
 		cout << "Side B: ";
-		cin >> sideB;
+		cin >> SideB;
 	}
 
 	float calcArea() const{
