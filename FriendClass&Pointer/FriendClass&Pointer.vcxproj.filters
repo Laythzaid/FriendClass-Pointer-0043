@@ -27,5 +27,8 @@
     <ClCompile Include="friendFuncSatu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="friendFuncDua.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
