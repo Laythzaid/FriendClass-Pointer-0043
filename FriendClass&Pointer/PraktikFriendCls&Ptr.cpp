@@ -70,5 +70,11 @@ public:
     float totalPerimeter(rectangle t, KiteShape k) {
 	    return (4 * t.side) + (2 * (k.sideA + k.sideB));
 	 }
+	int main() {
+		KiteShape kiteObj;
+		rectangle rectangleObj;
 
+		
+
+	}
 
