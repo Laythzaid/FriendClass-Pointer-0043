@@ -74,7 +74,8 @@ public:
 		KiteShape kiteObj;
 		rectangle rectangleObj;
 
-		
+		kiteObj.EnterDimns();
+		rectangleObj.EnterDimns();
 
 	}
 
