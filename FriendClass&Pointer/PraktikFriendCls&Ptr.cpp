@@ -77,5 +77,7 @@ public:
 		kiteObj.EnterDimns();
 		rectangleObj.EnterDimns();
 
+		kiteObj.printDimns();
+
 	}
 
