@@ -5,16 +5,16 @@ class rectangle; // forward declaration
 
 class TableShape {
 private: 
-	float dgl1, dgl2;
+	float SideC, SideD;
 	float SideA, SideB;
 
 public: 
 	void EnterDimns() {
-		cout << "Enter Kite dimensions\n";
-		cout << "Diagonal 1: ";
-		cin >> dgl1;
-		cout << "Diagonal 2: ";
-		cin >> dgl2;
+		cout << "Enter Table dimensions\n";
+		cout << "Side C: ";
+		cin >> SideC;
+		cout << "Side D 2: ";
+		cin >> SideD;
 		cout << "Side A: ";
 		cin >> SideA;
 		cout << "Side B: ";
@@ -22,7 +22,7 @@ public:
 	}
 
 	float calcArea() const{
-		return (dgl1 * dgl2);
+		return (SideC * SideD);
 	}
 
 	float calcPerimeter() const {
