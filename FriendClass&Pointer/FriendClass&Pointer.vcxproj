@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="friendClsTiga.cpp" />
     <ClCompile Include="friendFuncDua.cpp" />
     <ClCompile Include="friendFuncSatu.cpp" />
     <ClCompile Include="pointerDua.cpp" />
